@@ -1,23 +1,22 @@
-# PRODIGY_WD_02
-# Tic-Tac-Toe Web Application
+# Stopwatch Web Application
 
-Welcome to the Tic-Tac-Toe web application! This project is a simple and interactive implementation of the classic Tic-Tac-Toe game using **HTML**, **CSS**, and **JavaScript**. Players can enjoy the game by competing against each other or playing against an AI opponent.
+Welcome to the Stopwatch web application! This project is a simple and interactive implementation of a stopwatch using **HTML**, **CSS**, and **JavaScript**. Users can accurately measure time intervals, track lap times, and enjoy a responsive, user-friendly interface.
 
 ---
 
 ## Features
 
-- **Two-Player Mode**: Play with a friend locally on the same device.
-- **Single-Player Mode**: Play against an AI opponent with basic logic.
-- **Dynamic UI Updates**: Responsive and visually appealing interface.
-- **Winning Detection**: Real-time checks for game outcomes, including win, draw, or ongoing.
-- **Reset Option**: Start a new game with a single click.
+- **Start Timer**: Begin counting time with a single click.
+- **Pause Timer**: Pause the stopwatch without resetting the time.
+- **Reset Timer**: Reset the stopwatch to its initial state.
+- **Lap Tracking**: Record lap times and view them in a list.
+- **Responsive Design**: A visually appealing and accessible interface across devices.
 
 ---
 
 ## Demo
 
-A live demo of the application can be accessed [here](#). *(Add your live demo link here)*
+Check out the live demo: [Stopwatch Web Application](https://anujpal-dev.github.io/PRODIGY_WD_02/)
 
 ---
 
@@ -25,4 +24,4 @@ A live demo of the application can be accessed [here](#). *(Add your live demo l
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-Anujpal-dev/tic-tac-toe.git
+   git clone https://github.com/your-Anujpal-dev/stopwatch.git
