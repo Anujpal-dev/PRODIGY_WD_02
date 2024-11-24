@@ -1,0 +1,99 @@
+/* Center container styling */
+body, html {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0835e7, #3bc9db);
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Stopwatch styling */
+  .stopwatch {
+    text-align: center;
+    background: white;
+    padding: 60px; /* Increased padding */
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 400px; /* Increased width */
+    animation: fadeIn 0.8s ease-out; /* Increased duration */
+  }
+  
+  #display {
+    font-size: 4em; /* Increased font size */
+    margin-bottom: 30px; /* Increased margin */
+    color: #333;
+    transition: color 0.4s ease, transform 0.2s ease; /* Added transform for a smooth scaling effect */
+  }
+  
+  .buttons button {
+    font-size: 1.2em; /* Increased button font size */
+    padding: 15px 30px; /* Increased padding */
+    margin: 10px; /* Increased margin */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Shortened duration for smoother hover effect */
+  }
+  
+  .buttons button:active {
+    transform: scale(0.95);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  #startStopBtn {
+    background-color: #51cf66;
+    color: white;
+  }
+  
+  #lapBtn {
+    background-color: #ffd43b;
+    color: white;
+  }
+  
+  #resetBtn {
+    background-color: #ff6b6b;
+    color: white;
+  }
+  
+  #laps {
+    margin-top: 30px; /* Increased margin */
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #laps li {
+    opacity: 0;
+    animation: fadeIn 0.6s forwards; /* Increased duration for lap entry */
+    background: #f1f3f5;
+    margin-top: 10px;
+    padding: 10px; /* Increased padding */
+    border-radius: 4px;
+  }
+  
+  /* Keyframes for fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px); /* Added translation for smoother entrance */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Ensures the element ends at its original position */
+    }
+  }
+  
+  /* Button hover effect */
+  .buttons button:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Slight scale effect on hover */
+  }
+  
